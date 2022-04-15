@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.container {
+  max-width: 1770px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__left {
+  margin-right: auto;
+}
+
+.header__right {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-nav__menu {
+  display: flex;
+}
