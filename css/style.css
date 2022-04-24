@@ -26,6 +26,9 @@ ul {
   list-style: none;
 }
 
+.hiden {
+  display: none;
+}
 
 .container {
   max-width: 1770px;
@@ -214,10 +217,18 @@ ul {
   flex-direction: column;
   justify-content: flex-end;
   background-image: url(../img/Rectangle2.jpg);
-  width: 868px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 868px; */
+  width: 49%;
   min-height: 622px;
-  margin-right: 32px;
+  /* margin-right: 32px; */
 
+}
+
+.box-group {
+  width: 49.1%;
+  margin-left: auto;
 }
 
 .item-big__shadow {
@@ -245,9 +256,12 @@ ul {
   margin-top: 18px;
 }
 
+
+
 .box__item {
-  width: 870px;
-  height: 295px;
+  /* width: 870px; */
+  width: 100%;
+  min-height: 295px;
   border: 1px solid #CACACA;
   padding: 65px 115px 65px 60px;
 }
